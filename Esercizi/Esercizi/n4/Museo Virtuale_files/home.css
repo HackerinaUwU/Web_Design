@@ -1,0 +1,53 @@
+* {
+    font-family: Verdana, Tahoma, sans-serif;
+}
+
+body {
+    background-color: #abc3bf;
+}
+
+main {
+    display: inline-block;
+}
+
+p {
+    margin: 2px;
+    display: flex;
+    justify-content: space-between; }
+
+.padding {
+        padding: 4px; 
+}
+
+.border {
+    padding: 4px;
+    border: 2px solid black;
+}
+
+img {
+    margin: 4px 4px; 
+    glyph-orientation-vertical: middle;
+}
+
+.pink {
+    color: #ff227f;
+}
+
+.orange {
+    color: #e96200;
+}
+
+.light {
+    color: #327976;
+}
+
+header h1 {
+    color: #d5eee5;
+    background-color: #233652;
+    text-align: center;
+    margin: 8px 0;
+    letter-spacing: 0.15px }
+
+footer {
+    color: #3c3f39;
+}

@@ -1,0 +1,114 @@
+* {
+    font-family: Verdana, Tahoma, sans-serif;
+}
+
+body {
+    background-color: #abc3bf;
+}
+
+p {
+    margin: 2px;
+} 
+
+/* Per immagini */
+.border {
+    padding: 4px;
+    border: 2px solid black; 
+}
+
+#big {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+img {
+    margin: 10px 10.5px; 
+    height: 250px;
+}
+/* Per immagini */
+
+header h1 {
+    color: #d5eee5;
+    background-color: #233652;
+    text-align: center;
+    margin: 8px 0;
+    letter-spacing: 0.15px 
+}
+
+main {
+    background-color: #d8ebea;
+}
+
+/* link impostazioni */
+a {
+    color:#233652;
+}
+        
+ a:hover {
+    color: rgb(193, 212, 215);
+    cursor: alias;
+}
+/* link impostazioni */
+
+/* flexbox e griglie */
+#wrapper {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+
+#flexbox {
+    display: flex;
+    justify-content: center;
+    flex-wrap:wrap-reverse;
+    align-items: flex-start;
+}
+
+.grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-areas: 
+    ". . img1 "
+    "img2 img3 img4"
+    ". img5 .";
+}
+
+.i1 {
+    grid-area: img1;
+}
+
+.i2 {
+    grid-area: img2;
+}
+
+.i3 {
+    grid-area: img3;
+}
+.i4 {
+    grid-area: img4;
+}
+.i5 {
+    grid-area: img5;
+}
+/* flexbox e griglie */
+
+
+footer {
+    color: #3c3f39;
+    font-size: small;
+}
+
+/* Colori titoli film */
+
+.pink {
+    color: #ff227f;
+}
+
+.orange {
+    color: #e96200;
+}
+
+.light {
+    color: #327976;
+}
